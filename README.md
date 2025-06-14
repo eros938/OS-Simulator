@@ -186,32 +186,11 @@ class Semaphore:
 
 ---
 
-## 7. ⚠️ Limitations and Future Enhancements
 
-### Current Limitations:
-- Non-resizable GUI layout  
-- Limited to predefined algorithms  
-- No save/load functionality  
-- Single-threaded simulation  
 
-### Proposed Enhancements:
-- Priority scheduling & multilevel queues  
-- CPU utilization graphs  
-- Export results to CSV/PDF  
-- Multi-threaded simulation  
-- Distributed system concepts  
+## 7. 📋 Technical Specifications
 
----
-
-## 8. 🏁 Conclusion
-
-This OS simulator successfully bridges theoretical OS knowledge with practical implementation. With its clean architecture and educational focus, it serves as a foundation for further development and classroom use.
-
----
-
-## 9. 📋 Technical Specifications
-
-### 9.1 **📦 System Requirements**
+### 8.1 **📦 System Requirements**
 - Python 3.6+  
 - PyQt5  
 - Matplotlib  
@@ -219,13 +198,13 @@ This OS simulator successfully bridges theoretical OS knowledge with practical i
 - RAM: 4GB recommended  
 - Storage: ~100MB  
 
-### 9.2 **🚀 Setup Instructions**
+### 7.2 **🚀 Setup Instructions**
 ```bash
 pip install PyQt5 matplotlib numpy
 python main.py
 ```
 
-### 9.3 **📊 Code Metrics**
+### 7.3 **📊 Code Metrics**
 - Lines of code: ~800  
 - Classes: 8 main  
 - Methods: 50+  
