@@ -2,9 +2,9 @@ Here's the content formatted using **Markdown (README.md style)** with proper us
 
 ---
 
-# 🧠 Operating System Simulator - Comprehensive Project Report
+#  Operating System Simulator - Comprehensive Project Report
 
-## **📝 Executive Summary**
+## ** Executive Summary**
 
 This project implements a comprehensive **Operating System simulator** using **Python** and **PyQt5**, designed to demonstrate and visualize key OS concepts. The application provides interactive simulations for:
 
@@ -17,9 +17,9 @@ It serves as an excellent **educational tool** for understanding fundamental ope
 
 ---
 
-## 1. 📌 Project Overview
+## 1.  Project Overview
 
-### 1.1 **🎯 Objectives**
+### 1.1 ** Objectives**
 - Create an interactive educational tool for OS concepts  
 - Implement multiple OS algorithms with **real-time visualization**  
 - Provide hands-on experience with:
@@ -29,7 +29,7 @@ It serves as an excellent **educational tool** for understanding fundamental ope
   - Memory management  
 - Develop a **user-friendly GUI** for easy interaction and learning  
 
-### 1.2 **🌐 Scope**
+### 1.2 ** Scope**
 The project covers four major areas:
 - ⚙️ **Process Scheduling**: FCFS, SJF, Round Robin  
 - 🛑 **Deadlock Detection**: Banker’s algorithm  
@@ -45,7 +45,7 @@ The project covers four major areas:
 
 ---
 
-## 2. 🏗️ System Architecture
+## 2.  System Architecture
 
 ### 2.1 **🧱 Overall Structure**
 The app follows a modular architecture using a tabbed interface:
@@ -58,7 +58,7 @@ MainWindow (QTabWidget)
 └── MemoryManagerTab
 ```
 
-### 2.2 **🧠 Core Classes**
+### 2.2 ** Core Classes**
 | Class             | Responsibility |
 |------------------|----------------|
 | `ProcessScheduler` | Manages scheduling algorithms |
@@ -68,9 +68,9 @@ MainWindow (QTabWidget)
 
 ---
 
-## 3. 🧩 Module Implementation Details
+## 3.  Module Implementation Details
 
-### 3.1 **⚙️ Process Scheduling Module**
+### 3.1 **⚙ Process Scheduling Module**
 
 #### Features:
 - ✅ First Come First Serve (FCFS)  
@@ -88,7 +88,7 @@ def fcfs(self, processes):
     # Calculate metrics and generate chart
 ```
 
-### 3.2 **🛑 Deadlock Detection Module**
+### 3.2 ** Deadlock Detection Module**
 
 #### Features:
 - Dynamic resource matrix input  
@@ -101,7 +101,7 @@ def fcfs(self, processes):
 3. Release resources  
 4. Repeat until deadlock or safe state detected  
 
-### 3.3 **🔒 Process Synchronization Module**
+### 3.3 ** Process Synchronization Module**
 
 #### Features:
 - Semaphore simulation  
@@ -121,7 +121,7 @@ class Semaphore:
 - Visualizes state transitions  
 - Helps understand wait queues  
 
-### 3.4 **💾 Memory Management Module**
+### 3.4 ** Memory Management Module**
 
 #### Partition Types:
 - ✅ Fixed Partitioning  
@@ -139,28 +139,28 @@ class Semaphore:
 
 ---
 
-## 4. 🎨 Key Features and Functionality
+## 4. Key Features and Functionality
 
-### 4.1 **🖥️ User Interface Design**
+### 4.1 **🖥 User Interface Design**
 - Tabbed navigation  
 - Real-time parameter adjustments  
 - Responsive feedback  
 - Input validation  
 
-### 4.2 **🎓 Educational Tools**
+### 4.2 ** Educational Tools**
 - Step-by-step execution  
 - Scenario support  
 - Performance metrics  
 - Animated visualizations  
 
-### 4.3 **⚡ Technical Aspects**
+### 4.3 ** Technical Aspects**
 - Modular codebase  
 - Cross-platform compatibility  
 - Session-based state tracking  
 
 ---
 
-## 5. 🧪 Testing and Validation
+## 5.  Testing and Validation
 
 ### Test Scenarios:
 - Various scheduling patterns  
@@ -176,7 +176,7 @@ class Semaphore:
 
 ---
 
-## 6. 📈 Results and Achievements
+## 6.  Results and Achievements
 
 ✅ Four fully functional modules  
 ✅ Real-time interactive GUI  
@@ -188,9 +188,9 @@ class Semaphore:
 
 
 
-## 7. 📋 Technical Specifications
+## 7.  Technical Specifications
 
-### 8.1 **📦 System Requirements**
+### 8.1 ** System Requirements**
 - Python 3.6+  
 - PyQt5  
 - Matplotlib  
@@ -198,13 +198,13 @@ class Semaphore:
 - RAM: 4GB recommended  
 - Storage: ~100MB  
 
-### 7.2 **🚀 Setup Instructions**
+### 7.2 ** Setup Instructions**
 ```bash
 pip install PyQt5 matplotlib numpy
 python main.py
 ```
 
-### 7.3 **📊 Code Metrics**
+### 7.3 ** Code Metrics**
 - Lines of code: ~800  
 - Classes: 8 main  
 - Methods: 50+  
@@ -213,7 +213,7 @@ python main.py
 
 ---
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 This simulator helps users:
 - Understand algorithm behavior visually  
