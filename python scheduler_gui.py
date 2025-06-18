@@ -9,7 +9,7 @@ from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 
 from PyQt5.QtGui import QColor
 from PyQt5.QtCore import Qt
-
+#process sceduler module
 class ProcessScheduler:
     def __init__(self):
         self.processes = []
